@@ -25,6 +25,18 @@
 /* Begin PBXFileReference section */
 		C28C79B6264A59E6003713ED /* dv */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dv; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28C79B9264A59E6003713ED /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C28C79C2264A59F6003713ED /* vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vertex.h; sourceTree = "<group>"; };
+		C28C79C3264A59F6003713ED /* compareGP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = compareGP.cpp; sourceTree = "<group>"; };
+		C28C79C4264A59F6003713ED /* graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
+		C28C79C5264A59F6003713ED /* similarity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = similarity.h; sourceTree = "<group>"; };
+		C28C79C6264A59F6003713ED /* graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		C28C79C7264A59F6003713ED /* genGraph.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = genGraph.py; sourceTree = "<group>"; };
+		C28C79C8264A59F6003713ED /* testGP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testGP.cpp; sourceTree = "<group>"; };
+		C28C79C9264A59F6003713ED /* similarity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = similarity.cpp; sourceTree = "<group>"; };
+		C28C79CA264A59F6003713ED /* vertex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vertex.cpp; sourceTree = "<group>"; };
+		C28C79CB264A59F6003713ED /* drawGraph.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = drawGraph.py; sourceTree = "<group>"; };
+		C28C79CC264A59F6003713ED /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C28C79CD264A59F6003713ED /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,37 @@
 		C28C79B8264A59E6003713ED /* dv */ = {
 			isa = PBXGroup;
 			children = (
+				C28C79C0264A59F6003713ED /* experiments */,
+				C28C79CC264A59F6003713ED /* LICENSE */,
+				C28C79CD264A59F6003713ED /* README.md */,
 				C28C79B9264A59E6003713ED /* main.cpp */,
 			);
 			path = dv;
+			sourceTree = "<group>";
+		};
+		C28C79C0264A59F6003713ED /* experiments */ = {
+			isa = PBXGroup;
+			children = (
+				C28C79C1264A59F6003713ED /* gp */,
+			);
+			path = experiments;
+			sourceTree = "<group>";
+		};
+		C28C79C1264A59F6003713ED /* gp */ = {
+			isa = PBXGroup;
+			children = (
+				C28C79C2264A59F6003713ED /* vertex.h */,
+				C28C79C3264A59F6003713ED /* compareGP.cpp */,
+				C28C79C4264A59F6003713ED /* graph.cpp */,
+				C28C79C5264A59F6003713ED /* similarity.h */,
+				C28C79C6264A59F6003713ED /* graph.h */,
+				C28C79C7264A59F6003713ED /* genGraph.py */,
+				C28C79C8264A59F6003713ED /* testGP.cpp */,
+				C28C79C9264A59F6003713ED /* similarity.cpp */,
+				C28C79CA264A59F6003713ED /* vertex.cpp */,
+				C28C79CB264A59F6003713ED /* drawGraph.py */,
+			);
+			path = gp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
